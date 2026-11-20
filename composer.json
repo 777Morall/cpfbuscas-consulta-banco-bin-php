@@ -1,0 +1,24 @@
+{
+  "name": "cpfbuscas-examples/cpfbuscas-consulta-banco-bin-php",
+  "type": "project",
+  "description": "Como consultar banco por código e BIN por prefixo em PHP com a API CPF Buscas, Bearer e JSON.",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.2",
+    "ext-curl": "*",
+    "ext-json": "*"
+  },
+  "scripts": {
+    "test": "php tests/run.php"
+  },
+  "keywords": [
+    "php",
+    "cpfbuscas",
+    "api-rest",
+    "curl",
+    "exemplos-php",
+    "banco",
+    "bin",
+    "consulta-banco"
+  ]
+}

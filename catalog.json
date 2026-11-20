@@ -1,0 +1,30 @@
+{
+  "banco": {
+    "key": "banco",
+    "module": "Financeiro",
+    "label": "Banco",
+    "method": "GET",
+    "path": "/api/v1/query/banco",
+    "params": [
+      {
+        "name": "codigo",
+        "label": "Código",
+        "required": true
+      }
+    ]
+  },
+  "bin": {
+    "key": "bin",
+    "module": "Financeiro",
+    "label": "BIN",
+    "method": "GET",
+    "path": "/api/v1/query/bin",
+    "params": [
+      {
+        "name": "bin",
+        "label": "BIN",
+        "required": true
+      }
+    ]
+  }
+}
